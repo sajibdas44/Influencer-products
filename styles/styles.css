@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    margin: 80px 120px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 17px;
+}
+header nav li a:hover{
+    background-color: #565660;
+    padding: 3px;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+}
