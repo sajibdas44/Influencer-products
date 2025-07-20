@@ -83,7 +83,33 @@ header nav li a:hover{
     margin: 120px;
     justify-content: center;
     
+}   
+
+
+.sponsor-section{
+    margin: 120px;
+    justify-content: center;
+    
 }    
+.sponsor{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid gray; */
+    margin: 0 auto;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+.sponsor img{
+    filter: grayscale(100%);
+}
+.sponsor img:hover{
+    filter: none;
+    transform: scale(1.8);
+    transition: 1.5s;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -130,4 +156,17 @@ header nav li a:hover{
     .container-banner button{
         margin-bottom: 25px;
     }
+
+    .sponsor-section{
+        margin: 10px;
+        
+    }    
+    .sponsor{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+        padding: 10px;
+        gap: 30px;
+        
+    }
+
 }  
