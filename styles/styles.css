@@ -218,6 +218,14 @@ footer h2{
     padding-top: 50px;
 }
 
+.social-icon{
+    margin-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 
 @media screen and (max-width: 576px) {
     header{
@@ -241,10 +249,12 @@ footer h2{
         flex-direction: column;
         margin: 20px;
         justify-content: center;
+        justify-content: space-between;
         text-align: center;
     }
     .main-camera{
-        margin-top: 260px;
+        margin-top: -260px;
+        justify-items: right;
     }
     .container-banner h2{
         font-size: 30px;
